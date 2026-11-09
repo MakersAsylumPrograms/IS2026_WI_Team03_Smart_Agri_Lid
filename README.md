@@ -1,5 +1,5 @@
 # MAKER'S ASYLUM INNOVATION SCHOOL
-## 2026 Winter Diwali COHORT #8
+## 2026 Winter Diwali COHORT #8 Team 3
 ## Smart Agri Lid
 We are developing a smart monitoring device for the transportation and storage of agricultural produce, such as fruits, vegetables, and grains, to avoid it from getting spoiled early.
 
