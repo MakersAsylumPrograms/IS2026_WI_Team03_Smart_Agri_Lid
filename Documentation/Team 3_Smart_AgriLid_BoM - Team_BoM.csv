@@ -1,0 +1,72 @@
+Year,2026,,,,,,,
+Cohort,1,,,,,,,
+Team No,3,,,,,,,
+Team Name,Smart_AgriLid,,,,,,,
+Project Name,Smart_AgriLid,,,,,,,
+Team Members,Rajveer Maheshwari,Aarav Gupta,#3,#4,#5,,,
+Email IDs,rajveernm@gmail.com,aarav9g@gmail.com,,,,,,
+Team Mentor,·,,,,,,,
+Notes,,,,,,,,
+* Download this template(File>Download>xlsx) and fill the sheet in the below given format. Share the editable link in the Airtable form,,,,,,,,
+* Explain your project in brief,,,,,,,,
+* This sheet will be considered as Bill of material for your project. So mention every item required for the project even if you already have few of the components ,,,,,,,,
+"* For all the components that you are ordering online provide the reference link of the online store from where you are planning to place the order. 
+Prefer ordering the components from stores like robu, hubtronics, roboticsdna etc. A more comprehensive VENDOR LIST is at : MAKERVILLE",,,,,,,,
+* For the components that you are planning to purchase from your local store provide the reference link of image or video,,,,,,,,
+"* DO NOT RELY ON GETTING ANYTHING FROM THE LOCAL STORE HERE IN GOA. YOU WON'T HAVE THE TIME, MEANS OR AVAILABILITY TO GET THE COMPONENTS FROM THE LOCAL STORE",,,,,,,,
+,,,,,,,,
+Project Brief (Implementation Method):,"Smart Agri Lid
+
+The Smart Agri Lid is a sensor-based monitoring system designed to monitor the conditions of fresh fruits during transportation in agricultural crates. The system continuously measures temperature, humidity, and motion/impact conditions inside and around the crate to identify conditions that may affect the quality of the produce.
+
+The system monitors sudden jerks or impacts during transportation using a motion sensor. Whenever a significant jerk is detected, the event is recorded and the jerk count is displayed on the onboard display, allowing the user to track rough handling during transportation.
+
+The system also continuously monitors temperature and humidity against predefined threshold values. If the temperature exceeds the specified threshold, an alert is displayed on the screen, along with a red LED and buzzer indication to notify the user of potentially unfavorable conditions.
+
+When the humidity exceeds its predefined threshold, the system automatically activates a humidifier mechanism to help maintain the desired environmental conditions for the produce.
+
+Inshort, Smart Agri Lid provides real-time monitoring, visual and audible alerts, impact tracking, and automatic humidity control, helping maintain suitable conditions for fresh fruits during farm-to-market transportation.",,,,,,,
+Flow Diagram (Draw.io URL),https://drive.google.com/file/d/1Qy67c3QqxQSGiTUEFsM9xJCZarY41H_w/view?usp=sharing,,,,,,,
+HW Block Diagram (Draw.io URL),https://drive.google.com/file/d/1ysQBwBf3kYvlp0PSjJdJaE_xsY6CODWe/view?usp=sharing,,,,,,,
+Sr.No.,Part Number,Name,Category,HW# + Purpose,Quantity,Unit Cost(₹),Link,Notes / Additional Details
+1,DHT22,Temp and RH Sensor,Electronics,HW5 + To capture the relative humidity value and temparature value,1,104,https://robu.in/product/dht22-digital-temperature-humidity-sensor-temperature-humidity-module-am2302/?gad_source=1&gad_campaignid=20387462343&gbraid=0AAAAADvLFWdTmOClDi2tMlKPzdEeCzG7n&gclid=Cj0KCQjw8c3VBhCsARIsAA_xJ93ut_bBl2HjeJIrhx8DzdfTdj1K1VkegzVltZhLOIs5fIqUl97sYmAaAgEdEALw_wcB,
+2,ESP WROOM 32 MCU Module Version: 1.1,Microcontroller,Electronics,HW8+Brain,1,₹409,https://robu.in/product/esp-wroom-32-esp32-wifi-bt-ble-mcu-module/,
+3,5V Active Electromagnetic Buzzer,Buzzer ,Electronics,HW7+,1,₹18,https://robu.in/product/5v-active-electromagnetic-buzzer-pack-of-5/,"ANOOL :
+
+Get a Module, not just the Buzzer. Here's one example link:
+
+https://zbotic.in/product/high-current-active-alarm-buzzer-driver-module"
+4,MPU-6050 3-Axis Accelerometer and Gyro Sensor,IMU Sensor,Electronics,HW6+To capture and measure movement and jerks of the crate and produce in it ,1,₹151,https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/,
+5,1.3 Inch 128x64 OLED Display Screen Module with SPI Serial Interface - V2,OLED Display,Electronics,,1,₹529,https://robu.in/product/1-3-oled-display-v2/,
+6,"XL-A524SURSYGC-XINGLIGHT-20mA Colorless Transparent Lens Common Cathode -20℃~+85℃ Red,Green-yellow 30° 5mm round lamp head 50mW Plugin,D=5mm LED Indication - Discrete ROHS",RGB LED,Electronics,,1,₹4.79,https://robu.in/product/xl-a524sursygc-xinglight-20ma-colorless-transparent-lens-common-cathode-20℃85℃-redgreen-yellow-30-5mm-round-lamp-head-50mw-plugind5mm-led-indication-discrete-rohs ,"Get a mounted, RGB LED module, not bare RGB LED
+
+https://zbotic.in/product/smd-3-color-led-module "
+7,DC5V Humidifier USB Spray Module 108KHz,Humidifier,Electronics,,1,₹159,https://robu.in/product/dc-5v-humidifier-usb-spray-module-diy-incubation-experiment-equipm-108khz/,
+8,3.7v 2500mah 18650 Li-Ion Battery,Cell,Electronics,To power the project,1,108,https://robocraze.com/products/3-7v-2500mah-18650-li-ion-battery?_pos=1&_sid=b25f56efc&_ss=r,
+9,Mini Solar Lipo Charger Board,Solar Charger,Electronics,To Charge the Lion Cell,1,87,https://robu.in/product/mini-solar-lipo-charger-board/,
+10,18650 Single Battery Cell Case Holder,cell holder,Electronics,to hold cell,1,29,https://robocraze.com/products/18650-1-cell-holder?_pos=2&_sid=2eb28b792&_ss=r,
+11,Portable 6V 0.8W Solar Panel,Solar Panel,Electronics,For solar power,1,55,https://quartzcomponents.com/products/mini-6v-0-8w-portable-solar-panel?srsltid=AU7gw4VYvp_TqXNnaMHLf8OSsd1I-fkxKVTlSwcZsGQSWPAvQWiynVGT,Try to find a higher wattage solar panel. 0.8W is too less. Between 3W to 6W is recommended
+12,Breadboard,,Electronics,,,,,
+13,Jumper Wire,,Electronics,,,,,
+14,Type C to micro USB cable,Type C to micro USB cable,Electronics,,1,175,https://robocraze.com/products/official-micro-bit-usb-c-cable-type-c-to-micro-usb?variant=46765098893536&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google&utm_medium=cpc&utm_campaign=BL+%7C+Pmax+%7C+Feed+Only+%7C+All+Products+%7C+Top+5+Cities+%7C22%2F06&utm_source=googleads&utm_medium=ppc&utm_campaign=21400046529&utm_content=_&utm_term=&campaignid=21400046529&adgroupid=&campaign=21400046529&gad_source=1&gad_campaignid=21406494659&gbraid=0AAAAADgHQvavqzPpRR-yz8oBcQMQ006QY&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6fVgBh0oE0uZ1-JTkUeDJCuOeV0OuSeWSMcVPG1M9zJgFEbiO6K3jcaAlJSEALw_wcB,
+15,XL3608 boost module 5V,XL3608 boost module 5V,Electronics,to regulate supply,1,49,https://robu.in/product/xl3608-boost-module-5v/,
+16,Soldering Iron,,Electronics,,1,,,
+17,Perf Board,,Electronics,,,,,
+18,Fresh Vegetable/fruit For demo,,,,,,,
+19,Acrylic sheet,,Mechanical,,,,,
+20,3D printing filament,,3D printed,,,,,
+,,,,,,,,
+,,,,,,,,
+Robu  https://robu.in/,,,,,,,,
+Visha  http://www.vishaworld.com/,,,,,,,,
+MS Super Labs  https://www.mgsuperlabs.co.in/,,,,,,,,
+Evelta  https://evelta.com/,,,,,,,,
+SunRom  https://www.sunrom.com/,,,,,,,,
+FabToLab  https://www.fabtolab.com/,,,,,,,,
+ThingBits  https://www.thingbits.net/,,,,,,,,
+RoboKits  https://robokits.co.in/,,,,,,,,
+ProtoCentral  https://protocentral.com/,,,,,,,,
+Hubtronics  https://hubtronics.in/,,,,,,,,
+Robocraze  https://robocraze.com/,,,,,,,,
+Zbotic  https://zbotic.in/,,,,,,,,
+MakerVille Vendor List https://wiki.makerville.io/docs/Lists/hardware-vendors,,,,,,,,
